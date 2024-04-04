@@ -41,5 +41,6 @@ int main(void){
              get_height_of_avl_tree(p_avl_tree));
              puts("-----------------");
     }
-    
+   assert(destroy_avl_tree(&p_avl_tree)==SUCCESS && !p_avl_tree);
+   exit(0);   
 }
